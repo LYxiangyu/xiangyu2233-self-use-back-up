@@ -13,8 +13,8 @@
 LSP模块的备份，如果你的软件是LSPosed合成的，同样适用。
 ## 哔哩漫游X
 作者大大电报频道：[链接](t.me/bb_show)
-港澳台解析服务器：[链接]（https://github.com/yujincheng08/BiliRoaming/wiki/%E5%85%AC%E5%85%B1%E8%A7%A3%E6%9E%90%E6%9C%8D%E5%8A%A1%E5%99%A8
-）
+港澳台解析服务器：[链接](https://github.com/yujincheng08/BiliRoaming/wiki/%E5%85%AC%E5%85%B1%E8%A7%A3%E6%9E%90%E6%9C%8D%E5%8A%A1%E5%99%A8
+)
 主题json获取（如果特殊日期，请将主题调回纯白使用）：[链接](https://github.com/Rovniced/bilibili-skin)
 ## MIUI控制
 作者尚未公开，不公开相关信息。
