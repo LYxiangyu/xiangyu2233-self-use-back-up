@@ -1,7 +1,7 @@
 # 仓库介绍：
 作者自己用来备份某些东西数据，并分享给自己朋友的仓库，不同备份在不同文件夹。
 <br>来拿东西的朋友注意：不足为外人道也。
-<br> ![缪斯！全家福](https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9scnJoLW15LnNoYXJlcG9pbnQuY29tLzppOi9nL3BlcnNvbmFsL3hpYW5neXUyMjMzX2xycmhfb25taWNyb3NvZnRfY29tL0ViTFh6Z3FKeGFKTXB4ZC1COWRDYVJNQmFzdWRxMU92S21mN2JnSmtCckoxSWc_ZT1PZUp0anM.jpg)
+<br> ![缪斯！全家福](https://github.com/LYxiangyu/xiangyu2233-self-use-back-up/blob/main/1665967418055.jpg?raw=true)
 # 浏览器插件
 绝大部分是[EDGE](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home)里的，如果找不到，请到[Chrome应用商店](https://chrome.google.com/webstore)自行安装。
 ## Header Editor
