@@ -40,6 +40,42 @@ window.addEventListener('load',function(){
 	//右侧按钮的功能
 	right.addEventListener('click',function(){
 		num++;
+		if (num + 1 >= lis.children.length) {
+			num = 0;
+		}
+		for(var i = 0;i<lis.children.length;i++){
+			lis.children[i].className = '';
+		}
+		lis.children[num].className = 'selected';
 		animate(pic,-num*boxWidth);
-	})
+	});
+	//左侧按钮的功能
+	left.addEventListener('click',function(){
+		num--;
+		if (num < 0) {
+			num = lis.children.length - 1;
+		}
+		for(var i = 0;i<lis.children.length;i++){
+			lis.children[i].className = '';
+		}
+		lis.children[num].className = 'selected';
+		animate(pic,-num*boxWidth);
+	});
+	//自动换图
+	function pic_move_function(){
+		//不显示右侧按钮时自动换图
+		if (right.style.display == 'none' || right.style.display == '') {
+			num++;
+			if (num + 1 >= lis.children.length) {
+				num = 0;
+			}
+			for(var i = 0;i<lis.children.length;i++){
+				lis.children[i].className = '';
+			}
+			lis.children[num].className = 'selected';
+			animate(pic,-num*boxWidth);
+		}
+		setTimeout(pic_move_function, 4000);
+	}
+	setTimeout(pic_move_function, 4000);
 })
