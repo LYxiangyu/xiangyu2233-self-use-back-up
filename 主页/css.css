@@ -4,13 +4,13 @@
 }
 /*头部*/
 .aheader{
-	width: 100%;
+	width: 70rem;
 	height: 5rem;
+	margin: 0 auto;
 	background-color: white;
 }
 /*logo图片*/
 .hlogo{
-	margin-left: 25rem;
 	width: 10%;
 	height: 5rem;
 	float: left;
@@ -25,7 +25,6 @@
 
 .sc0{
 	float: right;
-	margin-right: 25rem;
 	margin-top: 0.5rem;
 	
 }
