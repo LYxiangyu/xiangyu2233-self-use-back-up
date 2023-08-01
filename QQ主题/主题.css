@@ -2,8 +2,20 @@
   display: none !important;
 }
 
-
 .q-popover-custom-class{
     background: rgba(255,255,255, 0.7) !important;
     backdrop-filter: blur(20px) !important;
+}
+
+.recent-contact-item {
+    border-radius: 8px;
+    margin: 4px 0 4px 0;
+}
+
+.viewport-list__inner {
+    padding: 4px;
+}
+
+.message-content__wrapper .file-message--content .normal-file{
+    background: rgba(255,255,255, 0.7) !important;
 }
