@@ -1,0 +1,9 @@
+.nav-item[aria-label="小世界"]{
+  display: none !important;
+}
+
+
+.q-popover-custom-class{
+    background: rgba(255,255,255, 0.7) !important;
+    backdrop-filter: blur(20px) !important;
+}
