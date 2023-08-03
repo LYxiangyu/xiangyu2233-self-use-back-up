@@ -19,3 +19,14 @@
 .message-content__wrapper .file-message--content .normal-file{
     background: rgba(255,255,255, 0.7) !important;
 }
+
+.chat-msg-area__tip--bottom[data-v-73ecf61e]{
+    bottom: initial;
+    top: 0px;
+  background-color: rgba(255,255,255, 0.7) !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+.vip-name{
+    color: color:initial !important;
+}
