@@ -1,0 +1,48 @@
+.message-content > .text-element{
+    color: rgba(0,0,0,0.9)!important;
+}
+
+.message-content > span{
+    color: rgba(0,0,0,0.8)!important;
+}
+
+*{
+    font-family: 'Misans' !important;
+    font-weight: 450 !important;
+}
+
+
+.recent-contact-item {
+    border-radius: 16px;
+    margin: 2px auto;
+    transform: scale(0.95);
+}
+
+.two-col-layout__aside{
+    margin: 10px 8px 10px 10px;
+}
+
+.recent-contact{
+    border-radius: 16px;
+}
+
+.draggable-view__container{
+    border-bottom-left-radius: 16px;
+}
+
+.chat-input-area{
+    border-radius: 16px;
+    margin: 0px 0px 10px 0px
+}
+
+.group-box__container{
+    margin: 10px 10px 10px 6px;
+}
+
+.group-box__wrapper{
+    border-radius: 16px !important;
+}
+
+.nav-item[aria-label="游戏"]{
+  display: none !important;
+}
