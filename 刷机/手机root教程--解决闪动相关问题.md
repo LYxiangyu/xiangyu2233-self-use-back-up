@@ -12,13 +12,13 @@
 ### 具体步骤
 #### 1.解bl锁（已解锁可跳过，以小米为例）
 前往小米社区->底栏\[官方\]->内侧申请->BL解锁申请    
-![[1713014436250.jpg]]
-![[1713014436256.jpg]]
+![[./pictures/1713014436250.jpg]]
+![[./pictures/1713014436256.jpg]]
 通过后，前往设置->我的设备->全部参数->疯狂点击OS/MIUI版本，直到提示“您现在处于开发者模式！”
-![[1713014436244.jpg]]
+![[./pictures/1713014436244.jpg]]
 随后前往，更多设置->开发者选项->设备解锁状态->绑定账号和设备，根据提示绑定账号和设备,回到开发者选项，打开usb调试。
 前往绑定页面小米提供的[网址](https://unlock.update.miui.com),点击立即解锁->解锁工具下载。
-![[./pictures/920240413213139.png]]
+![[./pictures/Pasted image 20240413213139.png]]
 下载后解压，打开\[miflash_unlock],登录。
 手机关机，按住下音量和关机键，，进入fastboot模式，此时手机上会有fast boot的英文，老机型会有上图的米兔干安卓机器人标志。找根数据线，连接电脑，点击解锁，一路确定，切忌断开连接。等待自动完成重启即可，如重启时屏幕上方带有解锁标志即为成功。
 ##### 注意
@@ -30,8 +30,8 @@
 #### 2.刷入root管理器（magisk为例，已获取root的可跳过）
 ##### 方法1：提取boot安装（不推荐）
 下载自己机型当前系统版本的系统包，解压后，部分机型可以看到boot镜像文件。如果没有，请自行搜索如何提取，本文不再讲解。
-安装magiks[官方连接](https://github.com/topjohnwu/Magisk/releases)下载最新版，我个人推荐alpha版，但此文章不提供连接。安装此应用，打开，如图，点击安装，选择修补一个文件，选择所提取的boot文件，等待修补完成后，关机，进入fastboot。
-![[f536570faaca55ab1eb675ec2424ba98.jpg]]
+安装magiks[官方连接]([Releases · topjohnwu/Magisk (github.com)](https://github.com/topjohnwu/Magisk/releases))下载最新版，我个人推荐alpha版，但此文章不提供连接。安装此应用，打开，如图，点击安装，选择修补一个文件，选择所提取的boot文件，等待修补完成后，关机，进入fastboot。
+![[./pictures/f536570faaca55ab1eb675ec2424ba98.jpg]]
 连接电脑，使用fastboot命令或者可视化工具刷入，具体请自行搜素。
 ##### 方法2：刷入rec后刷入
 ###### 1.刷入rec
@@ -51,9 +51,9 @@ fastboot flash recovery recovery.img
 ###### 2.安装magisk
 之后将下下来的面具的安装包拷到手机上，rec中点击安装，找到并刷入，apk格式，选择系统包，是可以刷入的，如果找不到，请重命名后缀改为zip。刷完后重启系统。
 进入系统后，找到面具的apk安装包，点击安装。之后就能找到一个面具图标的软件。
-![[Pasted image 20240414000204.png]]
+![[./pictures/Pasted image 20240414000204.png]]
 点进去，提示你要修复，确定，直接安装，安装完直接重启即可。
-![[3fcf5f8ef3ecee029774756772b3f9ee_720.jpg]]
+![[./pictures/3fcf5f8ef3ecee029774756772b3f9ee_720.jpg]]
 ##### 注意
 - 由于考虑到设备较老，本篇只讲magisk，如果您有能力，且设备较新，建议使用kernel su[官方]([tiann/KernelSU: A Kernel based root solution for Android (github.com)](https://github.com/tiann/KernelSU))的方式。更有效。
 #### 3.隐藏ROOT
@@ -64,17 +64,17 @@ Shamiko[官方]([Releases · LSPosed/LSPosed.github.io](https://github.com/LSPos
 ZygestNext[官方]()
 ##### ksu的隐藏
 - 如果您使用的是kernel su，点击底栏\[模块]->安装，请安装以下模块(下载的zip文件)，重启即可。
-![[Pasted image 20240414111357.png]]
+![[./pictures/Pasted image 20240414111357.png]]
 ##### magisk隐藏
 - 如果您使用的是面具，请使用此方案。 
 进入magisk，点击右上角的齿轮，点击隐藏magisk，默认的名字，确认即可。随后面具会退出，桌面上会多一个，和你定的名字同一个的软件，且封面为小机器人。
-![[0c1590497298922227ea264195fc7cba.jpg]]
+![[./pictures/0c1590497298922227ea264195fc7cba.jpg]]
 点击进入，随后点击右上角的齿轮，将Zygisk打开，重启。
 重启后，再次进入Magisk，点击底栏\[模块]->从本地安装，安装如下模块(下载的zip文件)，重启。
-![[d9034ebc15179fb8352777714780c0ec.jpg]]
+![[./pictures/d9034ebc15179fb8352777714780c0ec.jpg]]
 重启后，再次进入Magisk，点击右上角的齿轮->配置排除列表->搜索[闪动校园]->全部开启。
-![[Pasted image 20240414121109.png]]
-![[Pasted image 20240414121251.png]]
+![[./pictures/Pasted image 20240414121109.png]]
+![[./pictures/Pasted image 20240414121251.png]]
 #### 开始跑步吧
 ##### 准备如下
 - 以上步骤已完成
@@ -83,23 +83,23 @@ ZygestNext[官方]()
 ##### 1.打开Fake Location，测试是否成功
 点击左上角，打开菜单，登录账号，购买会员(一个月就9块，BTM买不起)。
 会员到账后，回到主页，点击图示内容，选择一个地方，启动模拟。
-![[Pasted image 20240414122213.png]]
+![[./pictures/Pasted image 20240414122213.png]]
 选择启动方式为root模式，点击确定，出现授权root弹框，点确定即可，如果无法授权，进入magisk/kernel->底栏[超级用户]->找到Fake Location，ksu需要点击进去，打开超级用户，magisk直接打开即可。
-![[Pasted image 20240414122510.png]]
-![[Pasted image 20240414123346.png]]
-![[Pasted image 20240414123530.png]]
-![[1713069284401.jpg]]
+![[./pictures/Pasted image 20240414122510.png]]
+![[./pictures/Pasted image 20240414123346.png]]
+![[./pictures/Pasted image 20240414123530.png]]
+![[./pictures/1713069284401.jpg]]
 此时重新点击选择一个地方，点击启动模拟
-![[Pasted image 20240414124108.png]]
+![[./pictures/Pasted image 20240414124108.png]]
 成功后会有如下提示，且按钮会变为\[停止模拟]。
-![[Pasted image 20240414124013.png]]
+![[./pictures/Pasted image 20240414124013.png]]
 然后开启缺德地图等地图软件，查看是否模拟成功。
-![[Pasted image 20240414124220.png]]
+![[./pictures/Pasted image 20240414124220.png]]
 ##### 2.模拟跑步
 正常打开闪动校园，开始跑步，先暂停。
 打开Fake Location，点击左上角菜单，点击加号，按照闪动校园的要求设计路线。
-![[Pasted image 20240414124700.png]]
-![[Pasted image 20240414124708.png]]
+![[./pictures/Pasted image 20240414124700.png]]
+![[./pictures/Pasted image 20240414124708.png]]
 ###### 功能键作用介绍（上到下）：
 - 切换地图背景，卫星图还是路线图，建议卫星。
 - 撤销，万一规划错了，回到上一步。
@@ -109,7 +109,7 @@ ZygestNext[官方]()
 设计完路线，回到原页面，设置好速频，建议3.5，开启步频模拟和速度浮动。启动模拟。
 回到闪动校园，继续跑步。
 跑步要求的点位可能会变化，点击此处，继续延长线路即可。
-![[Pasted image 20240414125627.png]]
+![[./pictures/Pasted image 20240414125627.png]]
 
 ### 完结
 - xiangyu编写。
