@@ -30,7 +30,7 @@
 #### 2.刷入root管理器（magisk为例，已获取root的可跳过）
 ##### 方法1：提取boot安装（不推荐）
 下载自己机型当前系统版本的系统包，解压后，部分机型可以看到boot镜像文件。如果没有，请自行搜索如何提取，本文不再讲解。
-安装magiks[官方连接]([Releases · topjohnwu/Magisk (github.com)](https://github.com/topjohnwu/Magisk/releases))下载最新版，我个人推荐alpha版，但此文章不提供连接。安装此应用，打开，如图，点击安装，选择修补一个文件，选择所提取的boot文件，等待修补完成后，关机，进入fastboot。
+安装magiks[官方连接](https://github.com/topjohnwu/Magisk/releases)下载最新版，我个人推荐alpha版，但此文章不提供连接。安装此应用，打开，如图，点击安装，选择修补一个文件，选择所提取的boot文件，等待修补完成后，关机，进入fastboot。
 ![[f536570faaca55ab1eb675ec2424ba98.jpg]]
 连接电脑，使用fastboot命令或者可视化工具刷入，具体请自行搜素。
 ##### 方法2：刷入rec后刷入
